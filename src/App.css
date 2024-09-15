@@ -167,7 +167,6 @@ iframe {
   align-content: center;
 }
 .gptSearchBar {
-  background: #202123;
   height: 100vh;
 }
 .gptSearchForm {
@@ -182,4 +181,19 @@ iframe {
 }
 .lang_dropdown {
   display: inline-block;
+}
+.gptMainPage {
+  background: #202123;
+}
+.GptMovieSuggestions.MovieListCards {
+  margin-top: -300px;
+}
+button.gptSearch-bt {
+  width: fit-content;
+  height: 39px;
+  color: #fff;
+  background: red;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
 }

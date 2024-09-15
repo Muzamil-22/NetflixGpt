@@ -1,6 +1,8 @@
 import { POSTER_PATH } from "../utils/constants";
 
 const MovieCard = ({ posterPath }) => {
+  if (posterPath == null) return;
+
   return (
     <div>
       <img
